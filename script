@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+  <head>
+       <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width,initial-scale=1.0">
+             <meta http-equiv="x-ua-compatible"content="ie=edge">
+                                
+               <style></style>
+                         </head>                                   
+                             <title>Primeiro Programa</title>                                                     
+                                 <body background="img/p.jpg" >   
+                                         <h1>Iniciaçao</h1>
+                                            <p>primeiros passo java </p>
+                                   </body>      
+                                         <Script>
+                                            Window,alert('qual o seu nome?')
+                                                var nome = window.prompt('Qual e seu nome?')//Vai perguntar o nome...
+                                                   window.alert('E um prazer,'+ nome +'!')
+                                                var ano = window.prompt('digite ano de nascimento')
+                                                var mes = window.prompt('digite mes de nascimento')
+                                                var s= ano
+                                                 var m= mes
+                                            window.alert('data de nascimento'+s  , 'mes de aniversario'+m )   //contatenaçao
+                                          </Script>        
+</html>
